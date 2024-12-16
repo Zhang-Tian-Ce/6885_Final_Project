@@ -1,4 +1,3 @@
-# compare_models.py
 import torch
 import numpy as np
 from slither_env import SlitherEnv
