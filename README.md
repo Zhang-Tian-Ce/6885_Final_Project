@@ -12,8 +12,6 @@ Consistent configurations were maintained across all scenarios to ensure reliabl
 
 
 
-
-
 ### References
 
 - <a id="DRL4SnakeGame"></a> DRL4SnakeGame: https://github.com/ZYunfeii/DRL4SnakeGame.
