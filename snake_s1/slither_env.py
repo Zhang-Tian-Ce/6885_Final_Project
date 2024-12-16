@@ -4,8 +4,8 @@ import numpy as np
 import pygame
 import math
 import random
-from game import Game  # 添加这行
-from snake import Snake  # 添加这行
+from game import Game  
+from snake import Snake  
 from constants import *
 
 class SlitherEnv(gym.Env):
@@ -16,7 +16,7 @@ class SlitherEnv(gym.Env):
         self.max_length = 0
         self.episode_steps = 0
         self.max_episode_steps = 2000
-        self.steps_without_food = 0  # 添加这个变量的初始化
+        self.steps_without_food = 0  
 
         # 动作空间：[-1,1]表示转向角度
         self.action_space = spaces.Box(
